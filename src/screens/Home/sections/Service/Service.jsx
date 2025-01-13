@@ -13,7 +13,7 @@ const Service = () => {
           Why <span className="text-[#FF0101]">Fowzi Media</span>
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-12 md:px-24 space-y-6 md:space-y-0">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-12 md:px-24 space-y-6 md:space-y-0">
         <div
           className={`w-full backdrop-blur-2xl animate-fadeIn px-10 py-10 bg-gray-500  bg-opacity-10 shadow-xl border border-gray-500 rounded-lg`}
         >

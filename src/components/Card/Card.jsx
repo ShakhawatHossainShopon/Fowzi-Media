@@ -21,7 +21,7 @@ const Card = ({ img, heading, paragraph, isCard }) => {
         </p>
         <button
           className={`px-4 text-gray-50 flex gap-2.5 items-center py-2 ${
-            isCard ? "bg-transparent border text-sm md:text-base" : "bg-primary"
+            isCard ? "bg-transparent border text-sm xl:text-base" : "bg-primary"
           } rounded-md text-sm md:text-xl font-semibold hover:scale-105 transition-all duration-300`}
         >
           Visit Fowzi Studios{" "}

@@ -68,7 +68,7 @@ const Contact = () => {
           </div>
         </section>
       </div>
-      <div className="hidden justify-center w-full md:flex">
+      <div className="hidden justify-center w-full lg:flex">
         <img src={img1} alt="" />
       </div>
     </div>
