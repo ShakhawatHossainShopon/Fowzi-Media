@@ -1,5 +1,7 @@
 import Card from "@/components/Card/Card";
 import card1 from "@/assets/banner-1.png";
+import card2 from "@/assets/banner-2.png";
+import card3 from "@/assets/banner-3.png";
 const CardSection = () => {
   return (
     <div>
@@ -15,19 +17,19 @@ const CardSection = () => {
             />
             <div className="xl:flex xl:space-y-0 space-y-6 py-6 gap-6">
               <Card
-                heading={"High-Quality Print Solutions"}
+                heading={"State-of-the-Art Studio Rentals"}
                 paragraph={
                   "From business cards to banners, Fowzi Prints delivers exceptional results tailored to your needs"
                 }
-                img={card1}
+                img={card2}
                 isCard={true}
               />
               <Card
-                heading={"High-Quality Print Solutions"}
+                heading={"Innovative Digital Solutions"}
                 paragraph={
                   "From business cards to banners, Fowzi Prints delivers exceptional results tailored to your needs"
                 }
-                img={card1}
+                img={card3}
                 isCard={true}
               />
             </div>

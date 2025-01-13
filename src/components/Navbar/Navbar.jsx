@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center py-6 px-[7%] fixed w-full bg-[#0D1117] z-10">
+    <div className="flex shadow-xl justify-between items-center py-3 md:py-6 px-[7%] fixed w-full bg-[#0D1117] z-10">
       <div>
         <img src={Logo} alt="Logo" className="w-6 md:w-10" />
       </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <button className="px-4 flex gap-2.5 items-center py-2 bg-primary rounded-md text-sm md:text-lg font-semibold ">
+        <button className="px-4 flex gap-2.5 items-center py-2 bg-primary rounded-md text-xs md:text-lg hover:scale-105 duration-300 transition-all font-semibold ">
           Explore
           <span className="text-sm mt-0.5 font-normal">
             <FaArrowRightLong />
