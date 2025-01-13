@@ -1,7 +1,7 @@
 import Card from "@/components/Card/Card";
 import card1 from "@/assets/banner-1.png";
 import card2 from "@/assets/banner-3.png";
-import card3 from "@/assets/banner-3.png";
+import card3 from "@/assets/banner-1.png";
 const CardSection = () => {
   return (
     <div>
