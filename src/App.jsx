@@ -4,11 +4,13 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <main className="flex justify-center w-full bg-[#0D1117] text-gray-200">
-        <div className="w-full px-[7%]">
+      <main className="flex justify-center w-full  bg-[#0D1117] text-white relative">
+        <div className="w-full">
           <Navbar />
-          <Home />
-          <Footer />
+          <div className="w-full px-[7%]">
+            <Home />
+            <Footer />
+          </div>
         </div>
       </main>
     </>
